@@ -1,0 +1,56 @@
+title: Air Slide
+author: Zurphing
+description: Allows Quick Run to function like Air Slide in future entries, where you can hold Square down mid-air to quick run forward.
+assets:
+- name: obj/P_EX100.mset
+  method: binarc
+  source:
+  - method: copy
+    name: A003 #Sora Jump Anim
+    source:
+    - name: A003.anb
+    type: ANB
+  - method: copy
+    name: A004 #Sora Fall Anim
+    source:
+    - name: A004.anb 
+    type: ANB
+  - method: copy
+    name: A101 #Sora Ledge Jump Anim
+    source:
+    - name: A101.anb 
+    type: ANB
+  - method: copy
+    name: A160 #Sora Aerial Dodge
+    source:
+    - name: A160.anb 
+    type: ANB
+  - method: copy
+    name: A173 #Sora Hover/Glide in Place
+    source:
+    - name: A173.anb
+    type: ANB
+  - method: copy
+    name: B003 #Sora High Jump
+    source:
+    - name: B003.anb
+    type: ANB
+- name: obj/P_EX100_MAGF.mset
+  method: binarc
+  source:
+  - method: copy
+    name: C003 #Sora Wisdom Jump
+    source:
+    - name: C003.anb
+    type: ANB
+  - method: copy
+    name: A004 #Sora Falling Anim
+    source:
+    - name: A004.anb 
+    type: ANB
+  - method: copy
+    name: A101 #Sora Ledge Jump Anim
+    source:
+    - name: A101.anb 
+    type: ANB
+
